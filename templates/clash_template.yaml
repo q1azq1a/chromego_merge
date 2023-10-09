@@ -25,25 +25,14 @@ dns:
     ipcidr:
       - 240.0.0.0/4
 proxies:
-  - name: TW
-  type: hysteria
-  server: www.dtku50.xyz
-  port: 43250
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  auth_str: 2S9M5Gs0pgRsaTObNghoLZx6wPkBJOGTFWvf4R06Us5hUNtfr7
-  up: 11
-  down: 55
+  - { name: '111', type: trojan, server: a, port: 1, password: 72ac875a-f5b9-461e-a7a4-942b468b0d83, udp: true, sni: gw.alicdn.com, skip-cert-verify: true }
 proxy-groups:
   - name: 节点选择
     type: select
     proxies:
       - 自动选择
       - DIRECT
-      - TW
+      - 111
 
   - name: 自动选择
     type: url-test
@@ -51,7 +40,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - TW
+      - 111
 
 rules:
   - DOMAIN,clash.razord.top,DIRECT
