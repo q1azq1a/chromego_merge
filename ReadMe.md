@@ -10,11 +10,11 @@
 ### 不套warp版本（clashmeta-全平台通用-节点最全）
 **不含hysteria2节点**
 ```
-[https://mareep.netlify.app/sub/merged_proxies.yaml](https://raw.githubusercontent.com/nolevo/meta/main/sub/merged_proxies.yaml)
+https://raw.githubusercontent.com/nolevo/meta/main/sub/merged_proxies.yaml
 ```
 **含hysteria2节点(节点最全）**
 ```
-[https://mareep.netlify.app/sub/merged_proxies_new.yaml](https://raw.githubusercontent.com/nolevo/meta/main/sub/merged_proxies_new.yaml)
+https://raw.githubusercontent.com/nolevo/meta/main/sub/merged_proxies_new.yaml
 ```
 ### 套warp版本（clashmeta-全平台通用-节点最全)
 **不含hysteria2节点**
