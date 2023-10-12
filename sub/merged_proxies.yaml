@@ -33,7 +33,7 @@ proxies:
   udp: true
   sni: gw.alicdn.com
   skip-cert-verify: true
-- name: meta_hysteria_01
+- name: hysteria_01
   type: hysteria
   server: hy2.dtku47.xyz
   port: 15566
@@ -43,7 +43,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: meta_hysteria_11
+- name: hysteria_11
   type: hysteria
   server: clash1.dtku47.xyz
   port: 11223
@@ -53,7 +53,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: meta_hysteria_21
+- name: hysteria_21
   type: hysteria
   server: hy2.dtku47.xyz
   port: 15566
@@ -63,7 +63,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: meta_hysteria_31
+- name: hysteria_31
   type: hysteria
   server: hy1.dtku47.xyz
   port: 22334
@@ -73,7 +73,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: meta_hysteria_41
+- name: hysteria_41
   type: hysteria
   server: hy2.dtku47.xyz
   port: 15566
@@ -83,7 +83,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: meta_hysteria_51
+- name: hysteria_51
   type: hysteria
   server: hy1.dtku47.xyz
   port: 22334
@@ -93,7 +93,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: meta_hysteria_61
+- name: hysteria_61
   type: hysteria
   server: 108.181.22.239
   port: 17727
@@ -105,7 +105,7 @@ proxies:
   auth_str: 7YxfKsXdTnB226S8j4OjaA9M0nLcXATvgnXhVJbCRG7e9KKU7i
   up: 11
   down: 55
-- name: meta_hysteria_71
+- name: hysteria_71
   type: hysteria
   server: www.dtku50.xyz
   port: 43250
@@ -117,7 +117,7 @@ proxies:
   auth_str: 2S9M5Gs0pgRsaTObNghoLZx6wPkBJOGTFWvf4R06Us5hUNtfr7
   up: 2
   down: 10
-- name: meta_vless_81
+- name: vless_81
   type: vless
   server: 45.150.165.61
   port: 25678
@@ -130,7 +130,7 @@ proxies:
   reality-opts:
     public-key: sJsSZcA2DyAHDTcoe8Utbz9JaXJPMVmtHmiXxWmcExc
   client-fingerprint: chrome
-- name: meta_hysteria_91
+- name: hysteria_91
   type: hysteria
   server: www3.dtku49.xyz
   port: 58693
@@ -205,16 +205,16 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - 111
-  - meta_hysteria_01
-  - meta_hysteria_11
-  - meta_hysteria_21
-  - meta_hysteria_31
-  - meta_hysteria_41
-  - meta_hysteria_51
-  - meta_hysteria_61
-  - meta_hysteria_71
-  - meta_vless_81
-  - meta_hysteria_91
+  - hysteria_01
+  - hysteria_11
+  - hysteria_21
+  - hysteria_31
+  - hysteria_41
+  - hysteria_51
+  - hysteria_61
+  - hysteria_71
+  - vless_81
+  - hysteria_91
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -226,16 +226,16 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 111
-  - meta_hysteria_01
-  - meta_hysteria_11
-  - meta_hysteria_21
-  - meta_hysteria_31
-  - meta_hysteria_41
-  - meta_hysteria_51
-  - meta_hysteria_61
-  - meta_hysteria_71
-  - meta_vless_81
-  - meta_hysteria_91
+  - hysteria_01
+  - hysteria_11
+  - hysteria_21
+  - hysteria_31
+  - hysteria_41
+  - hysteria_51
+  - hysteria_61
+  - hysteria_71
+  - vless_81
+  - hysteria_91
   - hysteria_0
   - hysteria_1
   - hysteria_2
