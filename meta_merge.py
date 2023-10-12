@@ -23,7 +23,7 @@ def process_clash(data, index):
     content = yaml.safe_load(data)
     proxies = content.get('proxies', [])
     for i, proxy in enumerate(proxies):
-        proxy['name'] = f"meta_{proxy['type']}_{index}{i+1}"
+        proxy['name'] = f"{proxy['type']}_{index}{i+1}"
     merged_proxies.extend(proxies)
 # 处理sb，待办
 def process_sb(data, index):
