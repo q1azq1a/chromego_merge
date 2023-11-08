@@ -27,8 +27,8 @@ dns:
 proxies:
 - name: '111'
   type: trojan
-  server: a
-  port: 1
+  server: 127.0.0.1
+  port: 9090
   password: 72ac875a-f5b9-461e-a7a4-942b468b0d83
   udp: true
   sni: gw.alicdn.com
