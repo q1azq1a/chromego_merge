@@ -93,19 +93,17 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: tuic_61
-  server: 108.181.22.239
-  port: 19988
-  type: tuic
-  uuid: 485ce799-da5f-46e8-a82b-8ef322d8602f
-  password: dongtaiwang.com
-  sni: bing.com
+- name: hysteria_61
+  type: hysteria
+  server: www.dtku46.xyz
+  port: 11223
+  auth-str: mqoE9qSoyMFa
   alpn:
   - h3
-  request-timeout: 8000
-  udp-relay-mode: native
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
   skip-cert-verify: true
-  congestion-controller: bbr
 - name: tuic_71
   server: 109.104.152.180
   port: 22335
@@ -122,13 +120,13 @@ proxies:
 - name: hysteria_81
   type: hysteria
   server: www.dtku50.xyz
-  port: 14751
-  sni: www.microsoft.com
+  port: 23577
+  sni: www.amazon.cn
   skip-cert-verify: true
   alpn:
   - h3
   protocol: udp
-  auth_str: 6qSZyyl4eTT8hqPMQxdhIgpxQfTyW1Oq6GBwQVhA2vBOw7QIGY
+  auth_str: dongtaiwang.com
   up: 2
   down: 10
 - name: hysteria_91
@@ -212,7 +210,7 @@ proxy-groups:
   - hysteria_31
   - hysteria_41
   - hysteria_51
-  - tuic_61
+  - hysteria_61
   - tuic_71
   - hysteria_81
   - hysteria_91
@@ -233,7 +231,7 @@ proxy-groups:
   - hysteria_31
   - hysteria_41
   - hysteria_51
-  - tuic_61
+  - hysteria_61
   - tuic_71
   - hysteria_81
   - hysteria_91
