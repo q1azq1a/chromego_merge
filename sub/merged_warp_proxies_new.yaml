@@ -53,59 +53,65 @@ proxies:
   dialer-proxy: WARP前置节点
 - name: ss_01
   type: ss
+  server: lg3.dtku41.xyz
+  port: 44672
+  password: dongtaiwang.com
+  cipher: chacha20-ietf-poly1305
+- name: ss_02
+  type: ss
   server: foshan.chiguayun.shop
   port: 27103
   password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: ss_02
+- name: ss_03
   type: ss
   server: yd.qianggewangluo.buzz
   port: 10809
   password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
   cipher: chacha20-ietf-poly1305
-- name: ss_03
+- name: ss_04
   type: ss
   server: yd.qianggewangluo.buzz
   port: 10813
   password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
   cipher: chacha20-ietf-poly1305
-- name: ss_04
+- name: ss_05
   type: ss
   server: yd.qianggewangluo.buzz
   port: 10815
   password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
   cipher: chacha20-ietf-poly1305
-- name: ss_05
+- name: ss_06
   type: ss
   server: yd.qianggewangluo.buzz
   port: 10803
   password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
   cipher: chacha20-ietf-poly1305
-- name: ss_06
+- name: ss_07
   type: ss
   server: hefei.chiguayun.shop
   port: 27101
   password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: ss_07
+- name: ss_08
   type: ss
   server: yd.qianggewangluo.buzz
   port: 10817
   password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
   cipher: chacha20-ietf-poly1305
-- name: ss_08
+- name: ss_09
   type: ss
   server: hefei.chiguayun.shop
   port: 27105
   password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: ss_09
+- name: ss_010
   type: ss
   server: uydyfkghjrtcsdx.youcansee.cyou
   port: 20167
   password: ca7e0c98-136d-472c-927b-b56bcba722e3
   cipher: chacha20-ietf-poly1305
-- name: ss_010
+- name: ss_011
   type: ss
   server: zhejiang.52vpn.top
   port: 32143
@@ -213,311 +219,23 @@ proxies:
   port: 27102
   password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: vmess_21
-  type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  cipher: auto
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /debian
-    headers:
-      host: data-us-v1.shwjfkw.cn
-- name: ss_22
+- name: ss_21
   type: ss
-  server: service.ouluyun9803.com
-  port: 20003
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  server: 109.104.152.144
+  port: 111
+  password: dongtaiwang.com
   cipher: chacha20-ietf-poly1305
-- name: vmess_23
-  type: vmess
-  server: 104.21.82.183
-  port: 8880
-  cipher: auto
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: server26.beheshtbaneh.com
-- name: ss_24
+- name: ss_31
   type: ss
-  server: service.ouluyun9803.com
-  port: 20005
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  server: 109.104.152.144
+  port: 111
+  password: dongtaiwang.com
   cipher: chacha20-ietf-poly1305
-- name: vmess_25
-  type: vmess
-  server: 172.67.221.183
-  port: 8080
-  cipher: auto
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: www.blueberrywindow.online
-- name: vmess_26
-  type: vmess
-  server: 104.21.82.183
-  port: 8880
-  cipher: auto
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: server26.beheshtbaneh.com
-- name: ss_27
+- name: ss_41
   type: ss
-  server: foshan.chiguayun.shop
-  port: 27105
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
-  cipher: chacha20-ietf-poly1305
-- name: ss_28
-  type: ss
-  server: foshan.chiguayun.shop
-  port: 27108
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
-  cipher: chacha20-ietf-poly1305
-- name: ss_29
-  type: ss
-  server: yd.qianggewangluo.buzz
-  port: 10808
-  password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
-  cipher: chacha20-ietf-poly1305
-- name: ss_210
-  type: ss
-  server: foshan.chiguayun.shop
-  port: 27104
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
-  cipher: chacha20-ietf-poly1305
-- name: ss_211
-  type: ss
-  server: foshan.chiguayun.shop
-  port: 27102
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
-  cipher: chacha20-ietf-poly1305
-- name: vmess_31
-  type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  cipher: auto
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /debian
-    headers:
-      host: data-us-v1.shwjfkw.cn
-- name: ss_32
-  type: ss
-  server: service.ouluyun9803.com
-  port: 20003
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-  cipher: chacha20-ietf-poly1305
-- name: vmess_33
-  type: vmess
-  server: 104.21.82.183
-  port: 8880
-  cipher: auto
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: server26.beheshtbaneh.com
-- name: ss_34
-  type: ss
-  server: service.ouluyun9803.com
-  port: 20005
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-  cipher: chacha20-ietf-poly1305
-- name: vmess_35
-  type: vmess
-  server: 172.67.221.183
-  port: 8080
-  cipher: auto
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: www.blueberrywindow.online
-- name: vmess_36
-  type: vmess
-  server: 104.21.82.183
-  port: 8880
-  cipher: auto
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: server26.beheshtbaneh.com
-- name: ss_37
-  type: ss
-  server: foshan.chiguayun.shop
-  port: 27105
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
-  cipher: chacha20-ietf-poly1305
-- name: ss_38
-  type: ss
-  server: foshan.chiguayun.shop
-  port: 27108
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
-  cipher: chacha20-ietf-poly1305
-- name: ss_39
-  type: ss
-  server: yd.qianggewangluo.buzz
-  port: 10808
-  password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
-  cipher: chacha20-ietf-poly1305
-- name: ss_310
-  type: ss
-  server: foshan.chiguayun.shop
-  port: 27104
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
-  cipher: chacha20-ietf-poly1305
-- name: ss_311
-  type: ss
-  server: foshan.chiguayun.shop
-  port: 27102
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
-  cipher: chacha20-ietf-poly1305
-- name: vmess_41
-  type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  cipher: auto
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /debian
-    headers:
-      host: data-us-v1.shwjfkw.cn
-- name: ss_42
-  type: ss
-  server: service.ouluyun9803.com
-  port: 20003
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-  cipher: chacha20-ietf-poly1305
-- name: vmess_43
-  type: vmess
-  server: 104.21.82.183
-  port: 8880
-  cipher: auto
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: server26.beheshtbaneh.com
-- name: ss_44
-  type: ss
-  server: service.ouluyun9803.com
-  port: 20005
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-  cipher: chacha20-ietf-poly1305
-- name: vmess_45
-  type: vmess
-  server: 172.67.221.183
-  port: 8080
-  cipher: auto
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: www.blueberrywindow.online
-- name: vmess_46
-  type: vmess
-  server: 104.21.82.183
-  port: 8880
-  cipher: auto
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: server26.beheshtbaneh.com
-- name: ss_47
-  type: ss
-  server: foshan.chiguayun.shop
-  port: 27105
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
-  cipher: chacha20-ietf-poly1305
-- name: ss_48
-  type: ss
-  server: foshan.chiguayun.shop
-  port: 27108
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
-  cipher: chacha20-ietf-poly1305
-- name: ss_49
-  type: ss
-  server: yd.qianggewangluo.buzz
-  port: 10808
-  password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
-  cipher: chacha20-ietf-poly1305
-- name: ss_410
-  type: ss
-  server: foshan.chiguayun.shop
-  port: 27104
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
-  cipher: chacha20-ietf-poly1305
-- name: ss_411
-  type: ss
-  server: foshan.chiguayun.shop
-  port: 27102
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
+  server: 109.104.152.144
+  port: 111
+  password: dongtaiwang.com
   cipher: chacha20-ietf-poly1305
 - name: vless_51
   type: vless
@@ -2381,6 +2099,7 @@ proxy-groups:
   - ss_08
   - ss_09
   - ss_010
+  - ss_011
   - vmess_11
   - ss_12
   - vmess_13
@@ -2392,39 +2111,9 @@ proxy-groups:
   - ss_19
   - ss_110
   - ss_111
-  - vmess_21
-  - ss_22
-  - vmess_23
-  - ss_24
-  - vmess_25
-  - vmess_26
-  - ss_27
-  - ss_28
-  - ss_29
-  - ss_210
-  - ss_211
-  - vmess_31
-  - ss_32
-  - vmess_33
-  - ss_34
-  - vmess_35
-  - vmess_36
-  - ss_37
-  - ss_38
-  - ss_39
-  - ss_310
-  - ss_311
-  - vmess_41
-  - ss_42
-  - vmess_43
-  - ss_44
-  - vmess_45
-  - vmess_46
-  - ss_47
-  - ss_48
-  - ss_49
-  - ss_410
-  - ss_411
+  - ss_21
+  - ss_31
+  - ss_41
   - vless_51
   - vless_52
   - vless_53
@@ -2592,6 +2281,7 @@ proxy-groups:
   - ss_08
   - ss_09
   - ss_010
+  - ss_011
   - vmess_11
   - ss_12
   - vmess_13
@@ -2603,39 +2293,9 @@ proxy-groups:
   - ss_19
   - ss_110
   - ss_111
-  - vmess_21
-  - ss_22
-  - vmess_23
-  - ss_24
-  - vmess_25
-  - vmess_26
-  - ss_27
-  - ss_28
-  - ss_29
-  - ss_210
-  - ss_211
-  - vmess_31
-  - ss_32
-  - vmess_33
-  - ss_34
-  - vmess_35
-  - vmess_36
-  - ss_37
-  - ss_38
-  - ss_39
-  - ss_310
-  - ss_311
-  - vmess_41
-  - ss_42
-  - vmess_43
-  - ss_44
-  - vmess_45
-  - vmess_46
-  - ss_47
-  - ss_48
-  - ss_49
-  - ss_410
-  - ss_411
+  - ss_21
+  - ss_31
+  - ss_41
   - vless_51
   - vless_52
   - vless_53
@@ -2803,6 +2463,7 @@ proxy-groups:
   - ss_08
   - ss_09
   - ss_010
+  - ss_011
   - vmess_11
   - ss_12
   - vmess_13
@@ -2814,39 +2475,9 @@ proxy-groups:
   - ss_19
   - ss_110
   - ss_111
-  - vmess_21
-  - ss_22
-  - vmess_23
-  - ss_24
-  - vmess_25
-  - vmess_26
-  - ss_27
-  - ss_28
-  - ss_29
-  - ss_210
-  - ss_211
-  - vmess_31
-  - ss_32
-  - vmess_33
-  - ss_34
-  - vmess_35
-  - vmess_36
-  - ss_37
-  - ss_38
-  - ss_39
-  - ss_310
-  - ss_311
-  - vmess_41
-  - ss_42
-  - vmess_43
-  - ss_44
-  - vmess_45
-  - vmess_46
-  - ss_47
-  - ss_48
-  - ss_49
-  - ss_410
-  - ss_411
+  - ss_21
+  - ss_31
+  - ss_41
   - vless_51
   - vless_52
   - vless_53
