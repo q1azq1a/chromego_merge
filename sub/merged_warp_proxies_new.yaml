@@ -86,19 +86,17 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: tuic_21
-  type: tuic
+- name: hysteria2_21
+  type: hysteria2
   server: 109.104.152.101
-  port: 31102
-  udp: true
-  uuid: 7bda06fd-e4af-4115-8aa3-f021832cfa78
+  port: 16610
   password: dongtaiwang.com
   alpn:
   - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: tuic_31
   type: tuic
   server: 109.104.152.101
@@ -1979,7 +1977,7 @@ proxy-groups:
   - hysteria2_01
   - hysteria2_02
   - tuic_11
-  - tuic_21
+  - hysteria2_21
   - tuic_31
   - tuic_41
   - vless_51
@@ -2142,7 +2140,7 @@ proxy-groups:
   - hysteria2_01
   - hysteria2_02
   - tuic_11
-  - tuic_21
+  - hysteria2_21
   - tuic_31
   - tuic_41
   - vless_51
@@ -2305,7 +2303,7 @@ proxy-groups:
   - hysteria2_01
   - hysteria2_02
   - tuic_11
-  - tuic_21
+  - hysteria2_21
   - tuic_31
   - tuic_41
   - vless_51
