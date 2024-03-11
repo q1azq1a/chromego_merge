@@ -351,18 +351,186 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
     headers:
       host: larger-marketing-amounts-skin.trycloudflare.com
-- name: tuic_21
-  server: 64.31.55.18
-  port: 11223
-  type: tuic
-  uuid: 1a0a455e-4207-44be-b5a0-062747671570
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+- name: vmess_21
+  type: vmess
+  server: yh1.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: pcs-referenced-camera-concerns.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+    headers:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: vmess_22
+  type: vmess
+  server: yh1.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: bibliographic-sword-sequence-advertisers.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: vmess_23
+  type: vmess
+  server: yh1.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: nest-emily-healing-h.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+    headers:
+      host: nest-emily-healing-h.trycloudflare.com
+- name: vmess_24
+  type: vmess
+  server: yh1.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: larger-marketing-amounts-skin.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+    headers:
+      host: larger-marketing-amounts-skin.trycloudflare.com
+- name: vmess_25
+  type: vmess
+  server: yh2.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: bibliographic-sword-sequence-advertisers.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: vmess_26
+  type: vmess
+  server: yh2.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: nest-emily-healing-h.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+    headers:
+      host: nest-emily-healing-h.trycloudflare.com
+- name: vmess_27
+  type: vmess
+  server: yh2.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: pcs-referenced-camera-concerns.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+    headers:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: vmess_28
+  type: vmess
+  server: yh3.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: larger-marketing-amounts-skin.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+    headers:
+      host: larger-marketing-amounts-skin.trycloudflare.com
+- name: vmess_29
+  type: vmess
+  server: yh3.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: bibliographic-sword-sequence-advertisers.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: vmess_210
+  type: vmess
+  server: yh3.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: nest-emily-healing-h.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+    headers:
+      host: nest-emily-healing-h.trycloudflare.com
+- name: vmess_211
+  type: vmess
+  server: yh3.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: pcs-referenced-camera-concerns.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+    headers:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: vmess_212
+  type: vmess
+  server: yh3.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: larger-marketing-amounts-skin.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+    headers:
+      host: larger-marketing-amounts-skin.trycloudflare.com
 - name: vmess_31
   type: vmess
   server: yh1.freeh1.xyz
@@ -927,7 +1095,18 @@ proxy-groups:
   - vmess_12
   - vmess_13
   - vmess_14
-  - tuic_21
+  - vmess_21
+  - vmess_22
+  - vmess_23
+  - vmess_24
+  - vmess_25
+  - vmess_26
+  - vmess_27
+  - vmess_28
+  - vmess_29
+  - vmess_210
+  - vmess_211
+  - vmess_212
   - vmess_31
   - vmess_32
   - vmess_33
@@ -990,7 +1169,18 @@ proxy-groups:
   - vmess_12
   - vmess_13
   - vmess_14
-  - tuic_21
+  - vmess_21
+  - vmess_22
+  - vmess_23
+  - vmess_24
+  - vmess_25
+  - vmess_26
+  - vmess_27
+  - vmess_28
+  - vmess_29
+  - vmess_210
+  - vmess_211
+  - vmess_212
   - vmess_31
   - vmess_32
   - vmess_33
@@ -1053,7 +1243,18 @@ proxy-groups:
   - vmess_12
   - vmess_13
   - vmess_14
-  - tuic_21
+  - vmess_21
+  - vmess_22
+  - vmess_23
+  - vmess_24
+  - vmess_25
+  - vmess_26
+  - vmess_27
+  - vmess_28
+  - vmess_29
+  - vmess_210
+  - vmess_211
+  - vmess_212
   - vmess_31
   - vmess_32
   - vmess_33
