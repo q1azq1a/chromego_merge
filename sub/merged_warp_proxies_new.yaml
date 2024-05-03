@@ -78,10 +78,10 @@ proxies:
   hop_interval: 10
 - name: vless_21
   type: vless
-  server: yh7.dtku41.xyz
-  port: 443
+  server: 104.26.9.12
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
@@ -90,10 +90,10 @@ proxies:
       host: giving-hide-provisions-corrected.trycloudflare.com
 - name: vless_22
   type: vless
-  server: yh9.dtku41.xyz
-  port: 443
+  server: 104.19.21.24
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
@@ -102,10 +102,10 @@ proxies:
       host: giving-hide-provisions-corrected.trycloudflare.com
 - name: vless_23
   type: vless
-  server: yh6.dtku41.xyz
-  port: 443
+  server: 104.26.9.54
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
@@ -114,10 +114,10 @@ proxies:
       host: giving-hide-provisions-corrected.trycloudflare.com
 - name: vless_24
   type: vless
-  server: yh1.dtku41.xyz
-  port: 443
+  server: 104.19.38.28
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
@@ -126,7 +126,52 @@ proxies:
       host: giving-hide-provisions-corrected.trycloudflare.com
 - name: vmess_31
   type: vmess
-  server: yh4.dtku41.xyz
+  server: 104.26.9.22
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: vmess_32
+  type: vmess
+  server: 172.64.97.235
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: vmess_33
+  type: vmess
+  server: 104.19.38.28
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: vmess_34
+  type: vmess
+  server: 104.19.38.48
   port: 8080
   cipher: auto
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
@@ -205,16 +250,66 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: hysteria_91
-  type: hysteria
-  server: hy1.dtku47.xyz
-  port: 22334
-  auth-str: lASdKzWK0VxL
-  alpn:
-  - h3
-  protocol: udp
-  up: 50 Mbps
-  down: 100 Mbps
+- name: vmess_91
+  type: vmess
+  server: 104.26.9.22
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: vmess_92
+  type: vmess
+  server: 172.64.97.235
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: vmess_93
+  type: vmess
+  server: 104.19.38.28
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: vmess_94
+  type: vmess
+  server: 104.19.38.48
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
 - name: hysteria_101
   type: hysteria
   server: hy2.dtku47.xyz
@@ -404,12 +499,18 @@ proxy-groups:
   - vless_23
   - vless_24
   - vmess_31
+  - vmess_32
+  - vmess_33
+  - vmess_34
   - tuic_41
   - vless_51
   - hysteria_61
   - hysteria_71
   - hysteria_81
-  - hysteria_91
+  - vmess_91
+  - vmess_92
+  - vmess_93
+  - vmess_94
   - hysteria_101
   - hysteria_111
   - ss_121
@@ -432,12 +533,18 @@ proxy-groups:
   - vless_23
   - vless_24
   - vmess_31
+  - vmess_32
+  - vmess_33
+  - vmess_34
   - tuic_41
   - vless_51
   - hysteria_61
   - hysteria_71
   - hysteria_81
-  - hysteria_91
+  - vmess_91
+  - vmess_92
+  - vmess_93
+  - vmess_94
   - hysteria_101
   - hysteria_111
   - ss_121
@@ -460,12 +567,18 @@ proxy-groups:
   - vless_23
   - vless_24
   - vmess_31
+  - vmess_32
+  - vmess_33
+  - vmess_34
   - tuic_41
   - vless_51
   - hysteria_61
   - hysteria_71
   - hysteria_81
-  - hysteria_91
+  - vmess_91
+  - vmess_92
+  - vmess_93
+  - vmess_94
   - hysteria_101
   - hysteria_111
   - ss_121
