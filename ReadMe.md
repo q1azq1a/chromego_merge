@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/nolevo/meta/main/sub/merged_proxies_new.yaml
 
 ### 通用链接 shadowrocket-nekoray
 ```
-https://github.com/nolevo/meta/raw/main/sub/shadowrocket.txt
+https://raw.githubusercontent.com/nolevo/meta/main/sub/shadowrocket.txt
 ```
 
 
