@@ -12,7 +12,7 @@ https://raw.githubusercontent.com/nolevo/meta/main/sub/merged_proxies.yaml
 https://raw.githubusercontent.com/nolevo/meta/main/sub/merged_proxies_new.yaml
 ```
 
-## 通用链接 shadowrocket-nekoray
+**通用链接 shadowrocket-nekoray**
 
 ```
 https://raw.githubusercontent.com/nolevo/meta/main/sub/shadowrocket.txt
