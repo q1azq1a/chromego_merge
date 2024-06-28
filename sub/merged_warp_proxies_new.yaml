@@ -1293,17 +1293,19 @@ proxies:
     host: nijigen-works.jp
     password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
     version: 3
-- name: ss_131
-  type: ss
+- name: hysteria_131
+  type: hysteria
   server: 23.170.40.77
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
-    version: 3
+  port: 30009
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 11
+  down: 55
+  hop_interval: 10
 - name: vmess_141
   type: vmess
   server: 104.19.32.88
@@ -1539,7 +1541,7 @@ proxy-groups:
   - hysteria_101
   - hysteria_111
   - ss_121
-  - ss_131
+  - hysteria_131
   - vmess_141
   - vmess_142
   - vmess_143
@@ -1638,7 +1640,7 @@ proxy-groups:
   - hysteria_101
   - hysteria_111
   - ss_121
-  - ss_131
+  - hysteria_131
   - vmess_141
   - vmess_142
   - vmess_143
@@ -1737,7 +1739,7 @@ proxy-groups:
   - hysteria_101
   - hysteria_111
   - ss_121
-  - ss_131
+  - hysteria_131
   - vmess_141
   - vmess_142
   - vmess_143
