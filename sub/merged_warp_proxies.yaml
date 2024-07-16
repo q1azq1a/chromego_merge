@@ -163,28 +163,26 @@ proxies:
   down: 100 Mbps
 - name: ss_61
   type: ss
-  server: 23.170.40.77
+  server: 51.159.2.179
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
-  password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
+  password: EJhF7SAs95JSRDFE54wyjr79GvKPEm7w0qLpMh6T0aM=
   plugin: shadow-tls
   plugin-opts:
     host: nijigen-works.jp
-    password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
+    password: QuLaE7p3W+ZSOvK/q5G5zRV0UEBEefflZENLW6MZPFI=
     version: 3
-- name: hysteria_71
-  type: hysteria
-  server: 23.170.40.77
-  port: 30009
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  auth_str: dongtaiwang.com
-  up: 11
-  down: 55
-  hop_interval: 10
+- name: ss_71
+  type: ss
+  server: 51.159.2.179
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: EJhF7SAs95JSRDFE54wyjr79GvKPEm7w0qLpMh6T0aM=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: QuLaE7p3W+ZSOvK/q5G5zRV0UEBEefflZENLW6MZPFI=
+    version: 3
 - name: vmess_81
   type: vmess
   server: 104.19.32.88
@@ -259,9 +257,9 @@ proxies:
   congestion-controller: bbr
 - name: hysteria_0
   type: hysteria
-  server: 104.192.224.139
-  port: 42113
-  ports: 42113
+  server: 166.1.18.52
+  port: 41363
+  ports: 41363
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -301,9 +299,9 @@ proxies:
   - h3
 - name: hysteria_3
   type: hysteria
-  server: 104.192.224.139
-  port: 42113
-  ports: 42113
+  server: 166.1.18.52
+  port: 41363
+  ports: 41363
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -346,7 +344,7 @@ proxy-groups:
   - hysteria_41
   - hysteria_51
   - ss_61
-  - hysteria_71
+  - ss_71
   - vmess_81
   - vmess_82
   - vmess_83
@@ -370,7 +368,7 @@ proxy-groups:
   - hysteria_41
   - hysteria_51
   - ss_61
-  - hysteria_71
+  - ss_71
   - vmess_81
   - vmess_82
   - vmess_83
@@ -394,7 +392,7 @@ proxy-groups:
   - hysteria_41
   - hysteria_51
   - ss_61
-  - hysteria_71
+  - ss_71
   - vmess_81
   - vmess_82
   - vmess_83
