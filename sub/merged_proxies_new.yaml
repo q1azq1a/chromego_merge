@@ -9233,50 +9233,62 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: hysteria_121
-  type: hysteria
+- name: vless_121
+  type: vless
   server: 46.29.166.206
-  port: 100
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: hysteria_131
-  type: hysteria
+  port: 400
+  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.paypal.com
+  reality-opts:
+    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    short-id: ''
+  client-fingerprint: chrome
+- name: vless_131
+  type: vless
   server: 46.29.166.206
-  port: 100
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: hysteria_141
-  type: hysteria
+  port: 400
+  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.paypal.com
+  reality-opts:
+    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    short-id: ''
+  client-fingerprint: chrome
+- name: vless_141
+  type: vless
   server: 46.29.166.206
-  port: 100
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: hysteria_151
-  type: hysteria
+  port: 400
+  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.paypal.com
+  reality-opts:
+    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    short-id: ''
+  client-fingerprint: chrome
+- name: vless_151
+  type: vless
   server: 46.29.166.206
-  port: 100
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
+  port: 400
+  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.paypal.com
+  reality-opts:
+    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    short-id: ''
+  client-fingerprint: chrome
 - name: shadowtls_1
   type: ss
   server: 91.149.239.23
@@ -9967,10 +9979,10 @@ proxy-groups:
   - vmess_94
   - hysteria_101
   - hysteria_111
-  - hysteria_121
-  - hysteria_131
-  - hysteria_141
-  - hysteria_151
+  - vless_121
+  - vless_131
+  - vless_141
+  - vless_151
   - shadowtls_1
   - hysteria_0
   - hysteria_1
@@ -10598,10 +10610,10 @@ proxy-groups:
   - vmess_94
   - hysteria_101
   - hysteria_111
-  - hysteria_121
-  - hysteria_131
-  - hysteria_141
-  - hysteria_151
+  - vless_121
+  - vless_131
+  - vless_141
+  - vless_151
   - shadowtls_1
   - hysteria_0
   - hysteria_1
