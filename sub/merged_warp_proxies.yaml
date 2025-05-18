@@ -220,6 +220,20 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: hysteria_1
+  type: hysteria
+  server: 185.22.155.71
+  port: 10803
+  ports: 10803
+  auth_str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: hysteria_2
   type: hysteria
   server: 185.22.155.71
@@ -341,6 +355,7 @@ proxy-groups:
   - hysteria_81
   - hysteria_91
   - hysteria_0
+  - hysteria_1
   - hysteria_2
   - hysteria_3
   - reality_0
@@ -365,6 +380,7 @@ proxy-groups:
   - hysteria_81
   - hysteria_91
   - hysteria_0
+  - hysteria_1
   - hysteria_2
   - hysteria_3
   - reality_0
@@ -389,6 +405,7 @@ proxy-groups:
   - hysteria_81
   - hysteria_91
   - hysteria_0
+  - hysteria_1
   - hysteria_2
   - hysteria_3
   - reality_0
