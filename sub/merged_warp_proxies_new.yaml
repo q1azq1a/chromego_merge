@@ -51,11 +51,11 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: WARP前置节点
-- name: hysteria2_01
-  type: hysteria2
-  server: 2001:bc8:32d7:302::11
-  port: 20088
-  password: dongtaiwang.com
+- name: hysteria_01
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -63,11 +63,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria2_11
-  type: hysteria2
-  server: 2001:bc8:32d7:302::11
-  port: 20088
-  password: dongtaiwang.com
+- name: hysteria_11
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -88,11 +88,11 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: hysteria2_31
-  type: hysteria2
-  server: 2001:bc8:32d7:302::17
-  port: 20088
-  password: dongtaiwang.com
+- name: hysteria_31
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -113,11 +113,11 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: hysteria2_51
-  type: hysteria2
-  server: 2001:bc8:32d7:302::17
-  port: 20088
-  password: dongtaiwang.com
+- name: hysteria_51
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -390,12 +390,12 @@ proxy-groups:
   tolerance: 50
   proxies:
   - TW
-  - hysteria2_01
-  - hysteria2_11
+  - hysteria_01
+  - hysteria_11
   - tuic_21
-  - hysteria2_31
+  - hysteria_31
   - tuic_41
-  - hysteria2_51
+  - hysteria_51
   - hysteria_61
   - hysteria_71
   - hysteria_81
@@ -419,12 +419,12 @@ proxy-groups:
   type: select
   proxies:
   - TW
-  - hysteria2_01
-  - hysteria2_11
+  - hysteria_01
+  - hysteria_11
   - tuic_21
-  - hysteria2_31
+  - hysteria_31
   - tuic_41
-  - hysteria2_51
+  - hysteria_51
   - hysteria_61
   - hysteria_71
   - hysteria_81
@@ -448,12 +448,12 @@ proxy-groups:
   type: load-balance
   proxies:
   - TW
-  - hysteria2_01
-  - hysteria2_11
+  - hysteria_01
+  - hysteria_11
   - tuic_21
-  - hysteria2_31
+  - hysteria_31
   - tuic_41
-  - hysteria2_51
+  - hysteria_51
   - hysteria_61
   - hysteria_71
   - hysteria_81
